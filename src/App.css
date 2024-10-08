@@ -1,0 +1,191 @@
+*{
+
+}
+.fs{
+    font-family: "Teko", sans-serif !important  ;
+}
+.unite{
+    font-family: "Teko", sans-serif !important  ;
+}
+.bg {
+    background-color: #01010F;
+    margin-top: -100px;
+    padding-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    height:100%;   
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+
+}
+
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: #F67A45;
+}
+.swiper-pagination-bullet{
+    background-color: #F67A45;
+}
+/* Customize the scrollbar */
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+ 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #F67A45; /* color of the scrollbar handle */
+    /* border-radius: 6px; roundness of the scrollbar handle */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scrollbar handle on hover */
+  }
+  
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #F67A45 #f1f1f1;
+  }
+
+
+
+
+  /* From Uiverse.io by cssbuttons-io */ 
+.button {
+    --color: #F67A45;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    background-color: #01010F;
+    color: white;
+  }
+  
+  .button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .button:hover {
+    color: #fff;
+  }
+  
+  .button:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .button:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .button:active:before {
+    background: #F67A45;
+    transition: background 0s;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  /* 222222222222222 */
+
+  .buttonn {
+    --color: black;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    background-color:black;
+    color: white;
+  }
+  
+  .buttonn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .buttonn:hover {
+    color: #fff;
+  }
+  
+  .buttonn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .buttonn:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .buttonn:active:before {
+    background: black;
+    transition: background 0s;
+  }
+
+
+
+
+
+
